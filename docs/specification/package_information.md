@@ -11,7 +11,7 @@
   * [Unit test output](https://github.com/restarian/brace_document_mocha/blob/master/docs/specification/unit_test_output.md)
 ----
 
-**Version**: 1.0.0
+**Version**: 1.1.0
 
 **Description**: A plugin for Brace Document which generates a document pages the project mocha unit tests.
 
@@ -26,7 +26,7 @@
 | Name | Action |
 | ---- | ------ |
  | test | ```mocha``` |
- | make_docs | ```brace_document --navlink --link --link-dest ../Readme.md --link-path synopsis.md -r -i docs_raw -b docs --force-title --title "Brace Document Mocha help pages" --sort depth --specification --mocha``` |
+ | make_docs | ```brace_document --navlink --link --link-dest ../Readme.md --link-path ../docs/synopsis.md -r -i docs_raw -b docs --force-title --title "Brace Document Mocha help pages" --sort depth --specification --mocha``` |
 
 **Technologies used in development**:
   * [VIM](https://www.vim.org) As the primary IDE

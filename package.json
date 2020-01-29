@@ -7,7 +7,7 @@
 	"bin": {},
 	"scripts": {
 		"test": "mocha",
-		"make_docs": "brace_document --navlink --link --link-dest ../Readme.md --link-path synopsis.md -r -i docs_raw -b docs --force-title --title \"Brace Document Mocha help pages\" --sort depth --specification --mocha"
+		"make_docs": "brace_document --navlink --link --link-dest ../Readme.md --link-path ../docs/synopsis.md -r -i docs_raw -b docs --force-title --title \"Brace Document Mocha help pages\" --sort depth --specification --mocha"
 	},
 	"repository": {
 		"type": "git",

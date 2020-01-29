@@ -18,6 +18,7 @@
 
 
 **Author: Robert Steckroth, _Bust0ut_ [<RobertSteckroth@gmail.com>](mailto:robertsteckroth@gmail.com)**
-**License:** MIT
+
+**License: MIT**
 
 Copyright (c) Restarian Technology 2020 - Robert Steckroth <RobertSteckroth@gmail.com>

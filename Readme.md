@@ -12,12 +12,18 @@
 
 
 ------
-### Document pages
+### Brace Document Mocha help pages
+* **Synopsis**
+* Specification
+  * [License information](https://github.com/restarian/brace_document_mocha/blob/master/docs/specification/license_information.md)
+  * [Package information](https://github.com/restarian/brace_document_mocha/blob/master/docs/specification/package_information.md)
+  * [Unit test output](https://github.com/restarian/brace_document_mocha/blob/master/docs/specification/unit_test_output.md)
 
 ----
 
 
 **Author: Robert Steckroth, _Bust0ut_ [<RobertSteckroth@gmail.com>](mailto:robertsteckroth@gmail.com)**
-**License:** MIT
+
+**License: MIT**
 
 Copyright (c) Restarian Technology 2020 - Robert Steckroth <RobertSteckroth@gmail.com>
