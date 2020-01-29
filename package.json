@@ -1,6 +1,6 @@
 {
 	"name": "brace_document_mocha",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"priority": "1",
 	"description": "A plugin for Brace Document which generates a document pages the project mocha unit tests.",
 	"main": "lib/brace_document_mocha.js",
