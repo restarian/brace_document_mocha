@@ -1,0 +1,73 @@
+{
+	"name": "brace_document_mocha",
+	"version": "1.1.0",
+	"priority": "1",
+	"description": "A plugin for Brace Document which generates a document pages the project mocha unit tests.",
+	"main": "lib/brace_document_mocha.js",
+	"bin": {},
+	"scripts": {
+		"test": "mocha",
+		"make_docs": "brace_document --navlink --link --link-dest ../Readme.md --link-path synopsis.md -r -i docs_raw -b docs --force-title --title \"Brace Document Mocha help pages\" --sort depth --specification --mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://restarian@github.com/restarian/brace_document_mocha.git"
+	},
+	"author": {
+		"name": "Robert Steckroth",
+		"email": "RobertSteckroth@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/restarian/brace_document_mocha/issues"
+	},
+	"homepage": "https://github.com/restarian/brace_document_mocha#readme",
+	"dependencies": {
+		"bracket_print": "^0.10.4",
+		"mocha": "^7.0.1"
+	},
+	"devDependencies": {
+		"amdefine": "^1.0.1",
+		"brace_maybe": "^0.1.5",
+		"bracket_utils": "^0.3.7",
+		"chai": "^4.2.0",
+		"requirejs": "^2.3.6"
+	},
+	"technologies": [
+		{
+			"name": "VIM",
+			"description": "As the primary IDE",
+			"url": "https://www.vim.org"
+		},
+		{
+			"name": "Windows 10",
+			"description": "As the development operating environment",
+			"url": "https://www.microsoft.com/en-us/software-download/windows10"
+		},
+		{
+			"name": "Ubuntu on Windows",
+			"description": "For unit testing",
+			"url": "https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6"
+		},
+		{
+			"name": "Git",
+			"description": "For repository management",
+			"url": "https://git-scm.com"
+		},
+		{
+			"name": "Github",
+			"description": "For repository storage",
+			"url": "https://github.com"
+		},
+		{
+			"name": "NPM",
+			"description": "For module storage",
+			"url": "https://npmjs.org"
+		},
+		{
+			"name": "Blender",
+			"description": "For logo design and art rendering",
+			"url": "https://blender.org"
+		}
+	]
+}
