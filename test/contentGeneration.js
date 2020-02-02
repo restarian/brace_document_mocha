@@ -36,10 +36,7 @@ var cache = utils.cacheManager(require)
 
 describe("Using stop further progression methodology for dependencies in: "+path.basename(__filename), function() { 
 
-	var err_msg = function(msg) {
-		expect(false, msg).to.be.true
-		done()
-	}
+	var err_msg = function(msg) { expect(false, msg).to.be.true; done() }
 
 	var it = maybe(it_will)	
 	it_will.stop = !!process.env.DRY_RUN  
@@ -67,8 +64,6 @@ describe("Using stop further progression methodology for dependencies in: "+path
 	})
 
 	describe("is able to gather the mocha output", function(done) {
-
-		this.timeout(6000)
 
 		var cwd = path.join(__dirname, "example"), requirejs
 		beforeEach(function() {

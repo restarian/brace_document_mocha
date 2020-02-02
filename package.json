@@ -4,7 +4,6 @@
 	"priority": "1",
 	"description": "A plugin for Brace Document which generates a document pages the project mocha unit tests.",
 	"main": "lib/brace_document_mocha.js",
-	"bin": {},
 	"scripts": {
 		"test": "mocha",
 		"make_docs": "brace_document --navlink --link --link-dest ../Readme.md --link-path ../docs/synopsis.md -r -i docs_raw -b docs --force-title --title \"Brace Document Mocha help pages\" --sort depth --specification --mocha"
@@ -32,6 +31,12 @@
 		"bracket_utils": "^0.3.7",
 		"chai": "^4.2.0",
 		"requirejs": "^2.3.6"
+	},
+	"optionalDependencies": {
+		"brace_document": "^1.1.10",
+		"brace_document_link": "^1.1.10",
+		"brace_document_navlink": "^1.1.9",
+		"brace_document_specification": "^1.2.3"
 	},
 	"technologies": [
 		{
