@@ -13,6 +13,8 @@
 
 ------
 ### Brace Document Mocha help pages
+* [Contributor code of conduct](https://github.com/restarian/brace_document_mocha/blob/master/docs/contributor_code_of_conduct.md)
+* [Guidelines for contributing](https://github.com/restarian/brace_document_mocha/blob/master/docs/guidelines_for_contributing.md)
 * **Synopsis**
 * Specification
   * [License information](https://github.com/restarian/brace_document_mocha/blob/master/docs/specification/license_information.md)
@@ -22,7 +24,7 @@
 ----
 
 ### What it is: 
-Brace Document Mocha creates a superficial ouput of the currently enabled unit tests for documentation purposes. It uses the overide script contained in the [Brace Maybe](https://github.com/restarian/brace_maybe) library to ommit unit testing processes while recording the describe and it strings. Brace Maybe also allows the plugin to recognize the [Mocha](https://github.com/search?q=mocha) *skip* and *only* mechanisms.
+Brace Document Mocha creates a superficial ouput of the currently enabled mocha unit tests to use for documentation purposes. It uses the overide script contained in the [Brace Maybe](https://github.com/restarian/brace_maybe) library to omit unit testing processes while recording the *describe* and *it* title strings. Brace Maybe also allows the plugin to recognize the [Mocha](https://github.com/search?q=mocha) *skip* and *only* mechanisms.
 
 **Author**: Robert Steckroth, [*Bust0ut*] [<RobertSteckroth@gmail.com>](mailto:robertsteckroth@gmail.com)
 
