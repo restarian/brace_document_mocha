@@ -11,7 +11,7 @@
   * [Unit test output](https://github.com/restarian/brace_document_mocha/blob/master/docs/specification/unit_test_output.md)
 ----
 
-**Version**: 1.1.0
+**Version**: 1.1.1
 
 **Description**: A plugin for Brace Document which generates a document pages the project mocha unit tests.
 
