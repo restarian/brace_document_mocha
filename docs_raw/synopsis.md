@@ -16,7 +16,8 @@
 
 ----
 
-### What it is: Brace Document Mocha creates a superficial ouput of the currently enabled unit tests for documentation purposes. It uses the overide script contained in the [Brace Maybe](https://github.com/restarian/brace_maybe) library to ommit unit testing processes while recording the describe and it strings. Brace Maybe also allows the plugin to recognize the [Mocha](https://github.com/search?q=mocha) *skip* and *only* mechanisms.
+### What it is: 
+Brace Document Mocha creates a superficial ouput of the currently enabled unit tests for documentation purposes. It uses the overide script contained in the [Brace Maybe](https://github.com/restarian/brace_maybe) library to ommit unit testing processes while recording the describe and it strings. Brace Maybe also allows the plugin to recognize the [Mocha](https://github.com/search?q=mocha) *skip* and *only* mechanisms.
 
 **Author**: Robert Steckroth, [*Bust0ut*] [<RobertSteckroth@gmail.com>](mailto:robertsteckroth@gmail.com)
 **License: MIT**
